@@ -225,8 +225,8 @@ h2 {
 
     .right {
         font-size: 8vw;
-        margin-bottom: 1vh;
-        margin-top: 0;
+         margin: 4vh 0;
+        margin-bottom: 3vh;
     }
 
     .dark {
