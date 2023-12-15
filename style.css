@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    transition: all .7s;
+}
+
+body {
+    padding-top: 10vh;
+    transition: all .6s;
+
+}
+
+h1 {
+    color: green;
+    text-shadow: 6px 5px 14px rgb(0, 180, 0);
+}
+
+h2 {
+    color: goldenrod;
+    text-shadow: 6px 5px 13px goldenrod;
+}
+
+
+.top {
+    width: 99%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 12vh; */
+
+    background-color: white;
+
+    box-shadow: 0px 0px 15px 3px rgb(97, 97, 97);
+    position: fixed;
+    top: 0;
+}
+
+
+
+
+.left {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 4vw;
+    color: rgb(38, 38, 250);
+    text-shadow: 7px 7px 14px rgb(204, 0, 255);
+
+    font-weight: bolder;
+    /* height: 12vh; */
+    padding: 2vh 1vw;
+    width: 80%;
+
+
+}
+
+.right {
+
+    border: 2px solid goldenrod;
+    font-size: 4.5vw;
+    color: rgb(204, 0, 255);
+    text-shadow: 7px 7px 14px goldenrod;
+    width: 100%;
+    margin: 7vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 13px 3px rgb(97, 97, 97);
+    padding: 2vh 1vw;
+    text-align: center;
+
+}
+
+.dark {
+    width: 110px;
+    text-align: center;
+    padding: 4px 0;
+    height: 65px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 0px 12px 1px rgb(23, 23, 255);
+
+}
+
+#drk {
+    font-weight: bolder;
+    padding-top: 3px;
+    font-size: 16px;
+    /* transition: none;
+    */
+}
+
+
+.indark {
+    width: 70px;
+    height: 35px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid blue;
+
+
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(53, 31, 255);
+    /* box-shadow: 0px 0px 2px 1px blue; */
+    /* border: 3px solid rgb(32, 255, 99); */
+
+    transform: translateX(0);
+}
+
+.zz {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.zz img {
+    width: 45%;
+    margin: 20px 0;
+    box-shadow: 0px 0px 9px 2px rgb(54, 208, 247);
+    /* height: 35vh; */
+
+}
+
+#a img {
+    width: 90%;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px 2px blueviolet;
+    display: block;
+}
+
+#b img {
+    display: block;
+    width: 90%;
+    margin: 20px 0;
+    box-shadow: 0px 0px 8px 2px rgb(97, 97, 97);
+}
+
+#c img {
+    display: block;
+    width: 90%;
+    margin: 20px 0;
+    box-shadow: 0px 0px 8px 2px rgb(97, 97, 97);
+}
+
+/* .indark:checked{
+        background-color: white;
+    
+
+    .circle{
+
+        position: relative;
+        
+        transform: translateX(35px);
+        
+    }
+
+    
+} */
+.resp {
+    display: grid;
+    grid-auto-flow: column;
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+    grid-auto-columns: minmax(90%, 1fr);
+
+    /* white-space: nowrap; */
+    padding: 10px 10px;
+    margin: 15px 0px;
+    box-shadow: 0px 0px 8px 2px rgb(97, 97, 97);
+
+    width: 100%;
+    background-color: transparent;
+}
+
+.resp img {
+    display: block;
+    width: 90%;
+    /* height: 50vh; */
+    margin: 0;
+    box-shadow: 0px 0px 8px 2px rgb(97, 97, 97);
+}
+
+
+.container {
+    width: 90%;
+    padding: 4%;
+    /* border: 2px solid blue; */
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgb(133, 165, 235);
+    color: black;
+    margin: 5vh auto;
+    font-size: 1.3vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+@media (max-width:800px) {
+    .top{
+        justify-content: space-evenly;
+    }
+    .left {
+        font-size: 8vw;
+        width: 70%;
+    }
+
+    .container {
+        font-size: 4vw;
+    }
+
+    .right {
+        font-size: 8vw;
+        margin-bottom: 1vh;
+        margin-top: 0;
+    }
+
+    .dark {
+        width: 100px;
+    }
+
+    .indark {
+        width: 60px;
+        height: 30px;
+    }
+    .drk{
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .zz img {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #a img {
+        width: 100%;
+    }
+
+    #b img {
+        width: 100%;
+    }
+
+    #c img {
+        width: 100%;
+    }
+
+}
