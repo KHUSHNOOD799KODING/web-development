@@ -215,8 +215,8 @@ h2 {
         justify-content: space-evenly;
     }
     .left {
-        font-size: 8vw;
-        width: 70%;
+        font-size: 7.5vw;
+        width: 72%;
     }
 
     .container {
@@ -230,7 +230,7 @@ h2 {
     }
 
     .dark {
-        width: 100px;
+        width: 95px;
     }
 
     .indark {
