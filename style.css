@@ -276,6 +276,11 @@ h2 {
         height: 30px;
     }
 
+    .ojt img{ 
+    max-width: 60%;
+    rotate: 90deg;
+}
+
 
     .zz img {
         width: 90%;
