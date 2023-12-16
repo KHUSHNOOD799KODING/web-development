@@ -222,6 +222,22 @@ h2 {
     color: rgb(97, 161, 0);
 }
 
+.ojt{
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 12px green; 
+    border: 2px solid green;
+    text-align: center;
+
+}
+.ojt h1{
+    color: green;
+}
+.ojt img{ 
+    width: 60%;
+    rotate: 90deg;
+}
+
 
 @media (max-width:800px) {
     .top{
